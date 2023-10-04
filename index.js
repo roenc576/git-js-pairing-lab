@@ -60,3 +60,9 @@ const isNegative = (num) => {
 console.log(isNegative(3))         //returns false
 console.log(isNegative(-2))        //returns true
 console.log(isNegative(Math.PI))   //returns false
+
+//8 
+const triangleArea = (height,base) => {
+    return .5 * height * base;
+}
+console.log(triangleArea(5,7));
