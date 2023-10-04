@@ -52,3 +52,11 @@ console.log(add(2, 4));
 console.log(add(10, -5));
 console.log(add(3, 7.5));  
 console.log(add(5, 5)); 
+
+//7
+const isNegative = (num) => {
+    return num * -1 > 0 ? true : false; 
+}
+console.log(isNegative(3))         //returns false
+console.log(isNegative(-2))        //returns true
+console.log(isNegative(Math.PI))   //returns false
