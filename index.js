@@ -34,4 +34,12 @@ const untilNum = (int) => {
         console.log(i);
     }
 }
-untilNum(1000000);
+untilNum(10);
+
+//5 
+const multiply = (int1, int2) => {
+    return int1 * int2; 
+}
+console.log(multiply(2, 4))
+console.log(multiply(10, -5))
+console.log(multiply(3, 7.5))
