@@ -43,3 +43,11 @@ const multiply = (int1, int2) => {
 console.log(multiply(2, 4))
 console.log(multiply(10, -5))
 console.log(multiply(3, 7.5))
+
+//6
+const add = (num1,num2) => {
+    return num1 + num2;
+}
+console.log(add(2, 4));
+console.log(add(10, -5));
+console.log(add(3, 7.5));  
