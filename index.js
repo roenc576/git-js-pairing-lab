@@ -8,3 +8,12 @@ const fiveToOneHundred = ()=> {
 }
 fiveToOneHundred(); 
 
+//2 
+const multiplesOfThree = ()=> {
+    for(i = 3; i <= 100; i++){
+        if (i % 3 ===0){
+            console.log(i); 
+        }
+    }
+}
+multiplesOfThree(); 
